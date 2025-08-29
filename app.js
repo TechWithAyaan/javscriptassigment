@@ -119,3 +119,17 @@ var area = pi * radius * radius;
 
 document.writeln("The circumference is " + circumference + "<br>");
 document.writeln("The area is " + area);
+
+document.writeln("<h1>Question #13</h1> <br>")
+var favSnack = "Choclate Chip";
+var currentAge = 12;
+var estAge = 60;
+var cookiePrice = 10;
+var estagecl = estAge - currentAge;
+var multiforlifecalc =cookiePrice * 30 ; //30 days 
+var yearlycalc = multiforlifecalc *12; // years
+document.writeln("My Favoriate Snack "+favSnack+"<br>")
+document.writeln("Current Age "+currentAge+"<br>")
+document.writeln("Estimatied Age "+estAge+"<br>")
+document.writeln("Total Age "+estagecl+"<br>")
+console.log(yearlycalc *estagecl)
